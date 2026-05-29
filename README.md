@@ -1,10 +1,10 @@
 # Content Management Scripts
 
-A collection of scripts written during a web content development internship, covering Django template tag generation, web scraping, and automated quality testing. Sensitive information (session cookies, domain names, and internal URLs) has been sanitized. See below for descriptions regarding each file's use cases.
+A collection of scripts written during a web content development internship, covering Django template tag generation, web scraping, and automated quality testing. Sensitive information (session cookies, domain names, and internal URLs) has been sanitized.
 
 ---
 
-## Scripts
+## Script Descriptions
 
 ### `check_quick_answers.py`
 Takes a list of internal quick answer (search results similar to an overview result in a search engine) URLs, extracts the search terms for that quick answer, and checks whether each term surfaces a quick answer on the live site. Outputs flagged terms and links for manual review.
